@@ -14,16 +14,16 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/Users/guillermo/organproject/OrganProject/Guillermo-HTML/About_us.html")
+@app.route("/About_us.html")
 def about_us():
     return render_template("About_us.html")
 
 
-@app.route("/Users/guillermo/organproject/OrganProject/Guillermo-HTML/Resources.html")
+@app.route("/Resources.html")
 def resources():
     return render_template("Resources.html")
 
-@app.route("/Users/guillermo/organproject/OrganProject/templates/templates/Research.html")
+@app.route("/Research.html")
 def research():
     return render_template("Research.html")
 
